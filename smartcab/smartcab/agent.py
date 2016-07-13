@@ -37,10 +37,11 @@ class LearningAgent(Agent):
         deadline = self.env.get_deadline(self)
         # TODO: Update state
         inputs['waypoint'] = self.next_waypoint
-        
-        del inputs['left']
+        inputs['deadline'] = deadline
+
+        #del inputs['left']
         del inputs['right']
-        del inputs['oncoming']
+        #del inputs['oncoming']
         self.state = tuple(sorted(inputs.items()))
 
         # TODO: Select action according to your policy
