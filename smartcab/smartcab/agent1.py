@@ -126,7 +126,7 @@ def run():
     #O[(0.1,0.7)] = pass_al_ga(0.1,0.7) #96 
     #O[(0.3,0.5)] = pass_al_ga(0.3,0.5) #94      
     #O[(0.5,0.9)] = pass_al_ga(0.5,0.9) #90
-    O[(0.7,0.1)] = pass_al_ga(0.7,0.1)
+    #O[(0.7,0.1)] = pass_al_ga(0.7,0.1) #96
     #O[(0.9,0.9)] = pass_al_ga(0.9,0.9) #75
     print "Results\n"        
     for v in val:
